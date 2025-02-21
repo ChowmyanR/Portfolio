@@ -25,7 +25,7 @@ header nav {
 
 header h1 {
   font-size: 45px;
-  color: crimson;
+  color: rgb(245, 245, 245);
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -65,7 +65,7 @@ header a::before {
 
   transition: 0.2s ease-in;
   transform: translateX(-101%);
-  background: crimson;
+  background: rgb(220, 20, 60);
 }
 
 header a:hover::before {
@@ -76,8 +76,8 @@ header a:hover {
   color: white;
 }
 
-header ul li:nth-child(1) a {
-  background: crimson;
+header ul li:nth-child() a {
+  background: rgb(0, 0, 0);
   color: white;
 }
 
@@ -127,7 +127,7 @@ header ul li:nth-child(1) a {
 .icons a {
   font-size: 20px;
   color: #eee;
-  background: crimson;
+  background: rgb(213, 213, 213);
   text-decoration: none;
   width: 35px;
   height: 35px;
@@ -433,7 +433,7 @@ header ul li:nth-child(1) a {
   font-size: 2rem;
   color: #222;
 
-  background: crimson;
+  background: rgb(220, 20, 60);
   border-radius: 50%;
 
   width: 5rem;
@@ -459,7 +459,7 @@ header ul li:nth-child(1) a {
   font-size: 20px;
   color: #eee;
 
-  background: crimson;
+  background: rgb(220, 20, 60);
   border-radius: 50%;
 
   width: 3rem;
